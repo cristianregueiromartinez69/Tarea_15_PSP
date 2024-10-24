@@ -16,6 +16,9 @@ public class Buzon {
             }
         }
         mensaje = JOptionPane.showInputDialog("Introduce un mensaje");
+        if(mensaje.isEmpty()){
+            mensaje = "Que tenga usted un bien día";
+        }
         System.out.println("Mensaje añadido al buzón");
         notifyAll();
 
@@ -35,6 +38,8 @@ public class Buzon {
         notifyAll();
 
     }
+
+
 
 
 
