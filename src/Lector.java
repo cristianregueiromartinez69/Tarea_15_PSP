@@ -12,7 +12,7 @@ public class Lector implements Runnable{
 
         for(int i = 0; i < 10; i++){
 
-            buzon.ReadMialBox();
+            buzon.ReadMailBox();
         }
 
     }

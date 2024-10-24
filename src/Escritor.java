@@ -11,7 +11,7 @@ public class Escritor implements Runnable{
 
         for(int i = 0; i < 10; i++){
 
-            buzon.writeMialBox();
+            buzon.writeMailBox();
         }
 
     }
